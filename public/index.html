@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#42b883" />
+    <meta
+      name="description"
+      content="Shop the latest trends and enjoy a seamless shopping experience on our fully responsive E-commerce platform with dynamic API integration, user authentication, and cart management."
+    />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="E-commerce Clone" />
+    <meta
+      property="og:description"
+      content="Explore a wide range of products on our E-commerce platform, built with React. Experience fast loading times, user-friendly navigation, and a responsive design."
+    />
+    <meta property="og:image" content="%PUBLIC_URL%/screenshot.png" />
+    <meta property="og:url" content="https://your-deployed-url.com" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <!-- Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- FontAwesome for Icons -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="global.css" />
+
+    <title>E-commerce Clone</title>
+  </head>
+  <body>
+    <noscript>
+      <strong>
+        JavaScript is required to run this application. Please enable it in your browser settings for the best shopping experience.
+      </strong>
+    </noscript>
+
+    <!-- Preloader -->
+    <div id="preloader">
+      <img src="%PUBLIC_URL%/loading-spinner.gif" alt="Loading..." />
+    </div>
+
+    <div id="root"></div>
+
+    <!-- Footer Scripts -->
+    <script>
+      // Hide preloader once the app is fully loaded
+      window.addEventListener("load", () => {
+        const preloader = document.getElementById("preloader");
+        if (preloader) {
+          preloader.style.display = "none";
+        }
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,42 @@
+/* Header.css */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button.theme-toggle-btn {
+  background-color: #42b883;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+button.theme-toggle-btn:hover {
+  background-color: #36a06e;
+}
+
+.dark-theme {
+  background-color: #333;
+  color: white;
+}
+
+.light-theme {
+  background-color: white;
+  color: black;
+}

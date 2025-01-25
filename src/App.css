@@ -1,0 +1,23 @@
+.App-main {
+  padding: 2rem;
+}
+
+.product-card {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  margin: 1rem;
+  text-align: center;
+}
+
+.product-list {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.5rem 0;
+}
